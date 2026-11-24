@@ -8,7 +8,7 @@ A single-line code review comment that approves a pull request with quiet existe
 
 ## The entry
 
-> LGTM. Merging now; this code will be maintained by people who have not been born yet.
+> LGTM. Merging now; this code will be maintained by people who have not been born yet, and they will not know our names.
 
 ## Run it
 
@@ -16,7 +16,7 @@ A single-line code review comment that approves a pull request with quiet existe
 node main.ts
 ```
 
-This writes the entry to `/output/entry.txt` and validates it against the bounty gate first: one single line, 1–140 characters, non-blank, opening with an approval (`LGTM`).
+This writes the entry to `/output/entry.txt` and validates it against the bounty gate first: one single line, 1–140 characters, non-blank, opening with an approval (`LGTM`) and keeping a flat tone with no exclamation mark. The written file is read back and re-validated byte for byte.
 
 ---
 
